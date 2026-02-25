@@ -1,15 +1,12 @@
 # AFUE_Analysis_Tool
-The AFUE analysis of residential and light commercial furnaces follows ANSI/ASHRAE Standard 103-2017 (i.e. Method of Testing for Annual Fuel Utilization Efficiency (AFUE) of Residential Central Furnaces and Boilers) 
-AFUE Analysis Tool Manual
+The README for AFUE Analysis Tool Manual was written by Zhiming Gao (gaoz@ornl.gov). The AFUE analysis tool for residential and light commercial furnaces follows ANSI/ASHRAE Standard 103-2017 (i.e. Method of Testing for Annual Fuel Utilization Efficiency (AFUE) of Residential Central Furnaces and Boilers) 
 
-Drafted by Zhiming Gao
+The usage of the open-source tool is subjected to MIT License
 
-
-
-Introduction 
+#Introduction 
 The AFUE analysis of residential and light commercial furnaces follows ANSI/ASHRAE Standard 103-2017 (i.e. Method of Testing for Annual Fuel Utilization Efficiency (AFUE) of Residential Central Furnaces and Boilers) [1, 2]. The tool analysis is a complex and comprehensive method based on furnace configuration and specific components equipped, and requires detailed furnace testing and measurement data. Thus, an AFUE analysis tool using Microsoft Excel enabled with VBA was developed with user-friendly interface, easy-to-use and comprehensive coverage. The tool consists of three worksheets: unit and configuration selection, geometry and measurement data input, and AFUE plus key results. This tool can be used to estimate the AFUE of both condensing and non-condensing furnaces with single-stage, two-stage and step-modulating functions. The tool was validated with experimental data from ORNL commercially available natural gas furnaces, including a 40 kBTU/h two-stage non-condensing furnace and an 80 kBTU/h non-modulating condensing furnace. The AFUE of the condensing furnace was rated at 96% while the tool evaluated a value of 95.9%. The AFUE of the non-condensing furnace was rated at 80% while the tool evaluated 81.4%. The results indicate the tool is reasonably accurate in the evaluation of new R&D modified furnace unit. 
 
-AFUE Analysis Tool Configuration and Usage
+#AFUE Analysis Tool Configuration and Usage
 The AFUE tool consists of three worksheets: unit and configuration selection, geometry and measurement data input, AFUE plus key results, and Helps.
 •	Unit and configuration selection
 Figure 1 shows the details of the worksheet, named as SelectScenario, for unit and configuration selection in the tool. Users can select (1) condensing or non-condensing furnace scenarios; (2) natural gas furnace system configuration scenarios, shown in the attached table, in which allows system number 3, 6 and 9 for condensing furnace scenarios or system number 1-10 for non-condensing furnace scenarios; and (3) modulating types, including non-modulating, two-step modulating and continuous-step modulating modes. Figure 2 displays these selection options. Once users select these options, the tool will show and highlight the exact unit selected, helping users to ensure the correct selections. 
